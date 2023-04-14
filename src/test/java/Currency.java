@@ -1,4 +1,3 @@
-
 public class Currency {
     private String name;
     private double value;
@@ -37,9 +36,9 @@ public class Currency {
         this.country = country;
     }
 
-//    public static void main(String[] args) {
-//        Currency moeda1 = new Currency("real", 3.5, "Brasil");
-//        System.out.println(moeda1.currencyRepresentation());
-//    }
+    public static void main(String[] args) {
+        Currency moeda1 = new Currency("real", 3.5, "Brasil");
+        System.out.println(moeda1.currencyRepresentation());
+   }
 }
 
